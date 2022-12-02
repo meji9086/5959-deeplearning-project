@@ -1,7 +1,7 @@
 # 59️⃣59️⃣-deeplearning-project        
 **🦁 Likelion AI SCHOOL7 👶🤱 으샤으샤팀3 9조 오9️⃣오9️⃣ 팀**    
 
-📜 노션 : (https://www.notion.so/9-0d49f99e20434e42b997897ca0986190)[https://www.notion.so/9-0d49f99e20434e42b997897ca0986190]
+📜 노션 : https://www.notion.so/9-0d49f99e20434e42b997897ca0986190
 
 #### 👨‍👩‍👧‍👦 Team Info.    
 |name|github|                    
