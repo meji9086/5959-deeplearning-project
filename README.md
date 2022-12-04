@@ -37,7 +37,7 @@ dacon AI 경진대회 : **청경채 성장률 예측하기**
 총 58개 청경채 케이스를 각 청경채 케이스 별 환경 데이터(1분 간격)으로 구성되어 있음      
 
 📁 train target dataset[folder]           
-<img src="https://user-images.githubusercontent.com/72390138/205494955-e4752ba6-3a90-41de-a1ee-ec2929ea8dd6.png" weight="500" height="800">     
+<img src="https://user-images.githubusercontent.com/72390138/205494955-e4752ba6-3a90-41de-a1ee-ec2929ea8dd6.png" weight="400" height="700">     
 총 58개 청경채 케이스를 rate column의 각 청경채 케이스 별 잎 면적 증감률(1일 간격)로 구성되어 있음       
 
 📂 train(input+target) shape           
@@ -47,10 +47,10 @@ test(input+target) (195, 43)
   
 ### 📊 Visualization
 1️⃣ 내부온도관측치, 내부습도관측치, 총추정광량, 월별 rate        
-![image](https://user-images.githubusercontent.com/72390138/205495898-c37538e0-8fbd-45db-93fa-24005583fb90.png)       
+![image](https://user-images.githubusercontent.com/72390138/205497279-d59cb01a-a52e-44f7-9cef-c34381f8fcfd.png)              
 
 2️⃣ 적색, 청색, 백색, 총추 추정광량 별 rate
-![image](https://user-images.githubusercontent.com/72390138/205496166-d977f778-c505-44f3-b13c-ce7d139bfbb6.png)    
+![image](https://user-images.githubusercontent.com/72390138/205497255-0030b727-3f14-4c07-b22b-806a05334616.png)             
 백색과 총추는 100에서, 적색과 청색은 0에서 성장률이 높다.     
   
 3️⃣ EC와 CO2의 냉방상태       
