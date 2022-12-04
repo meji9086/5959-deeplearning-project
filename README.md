@@ -34,15 +34,15 @@ dacon AI 경진대회 : **청경채 성장률 예측하기**
 
 📁 train input dataset[folder]
 ![image](https://user-images.githubusercontent.com/72390138/205494867-68e0c49a-3740-4fe4-8812-da281ace0524.png)    
-총 58개 청경채 케이스를 각 청경채 케이스 별 환경 데이터(1분 간격)으로 구성되어 있음    
+총 58개 청경채 케이스를 각 청경채 케이스 별 환경 데이터(1분 간격)으로 구성되어 있음      
 
-📁 train target dataset[folder]
-![image](https://user-images.githubusercontent.com/72390138/205494955-e4752ba6-3a90-41de-a1ee-ec2929ea8dd6.png)
-총 58개 청경채 케이스를 rate column의 각 청경채 케이스 별 잎 면적 증감률(1일 간격)로 구성되어 있음      
+📁 train target dataset[folder]           
+<img src="https://user-images.githubusercontent.com/72390138/205494955-e4752ba6-3a90-41de-a1ee-ec2929ea8dd6.png" weight="500" height="800">     
+총 58개 청경채 케이스를 rate column의 각 청경채 케이스 별 잎 면적 증감률(1일 간격)로 구성되어 있음       
 
-📂 train(input+target) shape
-train(input+target) (1813, 43)
-test(input+target) (195, 43)
+📂 train(input+target) shape           
+train(input+target) (1813, 43)         
+test(input+target) (195, 43)            
   
   
 ### 📊 Visualization
