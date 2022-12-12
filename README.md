@@ -221,10 +221,9 @@ early_stop = EarlyStopping(patience=5)
 history = model.fit(train_datagen, epochs=20, 
                     validation_data=val_datagen,
                     validation_steps=len(val_datagen),
-                    callbacks = [early_stop])      
-
-![image](https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png)       
+                    callbacks = [early_stop])         
 ```   
+![image](https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png)    
 
 📌 VGG19      
 ```python
@@ -258,9 +257,8 @@ history = model.fit(
     epochs = 100,
     validation_data = valid_dataset,
     callbacks = [early_stop]
-
+```        
 ![image](https://user-images.githubusercontent.com/72390138/206942406-f0be43cf-3d94-42f6-9991-9a2c7fcd725c.png)      
-```
 
 📌 DenseNet121       
 ```python
@@ -296,14 +294,13 @@ history = modeld.fit(
     validation_data = valid_dataset,
     callbacks = [early_stop]
 )
-
-![image](https://user-images.githubusercontent.com/72390138/206942427-2138ee68-d95b-4edc-8abb-39380b53a913.png)      
 ```
-
+![image](https://user-images.githubusercontent.com/72390138/206942427-2138ee68-d95b-4edc-8abb-39380b53a913.png)      
+  
 ### 🍀 Submission & Score
 📌 Resnet152V  -> Best Score     
 <img src="https://user-images.githubusercontent.com/72390138/206942588-a344bb5b-e72e-4909-b12d-777fbd5a6906.png" weight="350" height="450">         
 
 📌 팀원들의 이미지를 이용한 마스크 착용/미착용 예측
-<img src="https://user-images.githubusercontent.com/72390138/206942609-2b1b424c-a72c-498c-ae7e-71da416d8ec6.png" weight="500" height="500">         
+<img src="https://user-images.githubusercontent.com/72390138/206942609-2b1b424c-a72c-498c-ae7e-71da416d8ec6.png" weight="500" height="550">         
 
