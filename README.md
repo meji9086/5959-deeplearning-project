@@ -173,6 +173,7 @@ public : 21.5578 / private 22.5213
 주소 : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)        
   
 📜 notion : https://www.notion.so/MINI6-Mask_or_No_Mask-Classification-a7d66cebd161444180e9024e13be2f98#35d0f4877a1f4aa3bd9a0719fc5bea2d     
+📌 streamlit : https://seul1230-mask-classification-main-pqg0f0.streamlit.app/
   
 ### 📃 summary     
 <img src="https://user-images.githubusercontent.com/72390138/206940326-e4e4d101-7939-4072-8c9c-65f5e03734fa.png" weight="400" height="400">         
