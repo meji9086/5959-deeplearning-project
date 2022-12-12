@@ -11,7 +11,7 @@
 |<span style="color:blue">[임종우](https://github.com/imngooh)</span>|<a href="https://github.com/dkssudgb"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://velog.io/@im_ngooh"><img src="https://img.shields.io/badge/velog-20C997?style=flat-square&logo=velog&logoColor=white"/>|            
 |<span style="color:blue">[권태윤](https://github.com/taeyoon94)</span>|<a href="https://github.com/taeyoon94"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://github.com/taeyoon94"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>                           
   
-## 🥬 Prediction of bok choy growth 🥬
+## 🥬 1. Prediction of bok choy growth 🥬
 ![image](https://user-images.githubusercontent.com/72390138/205493584-af95700c-c420-4f95-a5fc-d1c05bb27bc7.png)      
 
 🏆 dacon AI 경진대회 : **청경채 성장률 예측하기**                    
@@ -166,7 +166,7 @@ public : 21.5578 / private 22.5213
 
 ---
 
-## 😷 Face Mask Classification 😷     
+## 2. 😷 Face Mask Classification 😷     
 <img src="https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png" weight="350" height="190">        
 
 🏆 Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
