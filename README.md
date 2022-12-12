@@ -14,7 +14,7 @@
 ## 🥬 Prediction of bok choy growth 🥬
 ![image](https://user-images.githubusercontent.com/72390138/205493584-af95700c-c420-4f95-a5fc-d1c05bb27bc7.png)      
 
-dacon AI 경진대회 : **청경채 성장률 예측하기**                    
+🏆 dacon AI 경진대회 : **청경채 성장률 예측하기**                    
 주소 : [https://dacon.io/competitions/official/235961/overview/description](https://dacon.io/competitions/official/235961/overview/description)        
   
 📜 notion : https://www.notion.so/MINI5-AI-b031d68247e24a30b192b24c522284d1
@@ -169,7 +169,7 @@ public : 21.5578 / private 22.5213
 ## 😷 Face Mask Classification 😷     
 <img src="https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png" weight="350" height="190">        
 
-Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
+🏆 Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
 주소 : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)        
   
 📜 notion : https://www.notion.so/MINI6-Mask_or_No_Mask-Classification-a7d66cebd161444180e9024e13be2f98#35d0f4877a1f4aa3bd9a0719fc5bea2d     
