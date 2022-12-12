@@ -167,7 +167,7 @@ public : 21.5578 / private 22.5213
 ---
 
 ## 😷 Face Mask Classification 😷     
-<img src="https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png" weight="350" height="250">        
+<img src="https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png" weight="350" height="190">        
 
 Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
 주소 : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)        
