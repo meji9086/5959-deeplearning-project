@@ -200,7 +200,7 @@ test_df (88, 2)
 <img src="https://user-images.githubusercontent.com/72390138/206941876-1053e395-212a-43ff-b40f-f54566dab42f.png" weight="350" height="350">         
 
 ### 🔍 Modeling
-⭐ Tensorflow를 이용한 모델링 ⭐        
+**⭐ Tensorflow를 이용한 모델링 ⭐**                
 📌 Resnet152V       
 ```python
 # imagenet으로 pre-trained 된 가중치 값 적용
