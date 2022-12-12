@@ -223,7 +223,7 @@ history = model.fit(train_datagen, epochs=20,
                     validation_steps=len(val_datagen),
                     callbacks = [early_stop])         
 ```   
-<img src="https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png" weight="350" height="350">         
+<img src="https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png" weight="250" height="300">         
 
 
 📌 VGG19      
