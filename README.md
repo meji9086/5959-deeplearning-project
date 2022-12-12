@@ -223,7 +223,8 @@ history = model.fit(train_datagen, epochs=20,
                     validation_steps=len(val_datagen),
                     callbacks = [early_stop])         
 ```   
-![image](https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png)    
+<img src="https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png" weight="350" height="350">         
+
 
 📌 VGG19      
 ```python
@@ -258,8 +259,8 @@ history = model.fit(
     validation_data = valid_dataset,
     callbacks = [early_stop]
 ```        
-![image](https://user-images.githubusercontent.com/72390138/206942406-f0be43cf-3d94-42f6-9991-9a2c7fcd725c.png)      
-
+<img src="https://user-images.githubusercontent.com/72390138/206942406-f0be43cf-3d94-42f6-9991-9a2c7fcd725c.png" weight="350" height="350">         
+  
 📌 DenseNet121       
 ```python
 from tensorflow.keras import Sequential
@@ -294,8 +295,8 @@ history = modeld.fit(
     validation_data = valid_dataset,
     callbacks = [early_stop]
 )
-```
-![image](https://user-images.githubusercontent.com/72390138/206942427-2138ee68-d95b-4edc-8abb-39380b53a913.png)      
+```    
+<img src="https://user-images.githubusercontent.com/72390138/206942427-2138ee68-d95b-4edc-8abb-39380b53a913.png" weight="350" height="350">          
   
 ### 🍀 Submission & Score
 📌 Resnet152V  -> Best Score     
