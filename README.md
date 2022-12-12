@@ -167,7 +167,7 @@ public : 21.5578 / private 22.5213
 ---
 
 ## 😷 Face Mask Classification 😷     
-![image](https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png)      
+<img src="https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png" weight="350" height="350">        
 
 Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
 주소 : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)        
@@ -175,7 +175,7 @@ Kaggle AI 경진대회 : **마스크 착용/미착용 분류**
 📜 notion : https://www.notion.so/MINI6-Mask_or_No_Mask-Classification-a7d66cebd161444180e9024e13be2f98#35d0f4877a1f4aa3bd9a0719fc5bea2d     
   
 ### 📃 summary     
-![image](https://user-images.githubusercontent.com/72390138/206940326-e4e4d101-7939-4072-8c9c-65f5e03734fa.png)      
+<img src="https://user-images.githubusercontent.com/72390138/206940326-e4e4d101-7939-4072-8c9c-65f5e03734fa.png" weight="350" height="350">         
 코로나19 바이러스로 인한 마스크 착용 의무화하였었고, 그에 따른 마스크 미착용자에 대한 과태로 부과 대상에 처했었다.     
 마스크 착용과 미착용의 분류를 통해 모니터링하는 인력을 감소화하고 마스크 착용의 의무화를 느끼고 착용률을 높이고자 한다.    
 
@@ -183,11 +183,11 @@ Kaggle AI 경진대회 : **마스크 착용/미착용 분류**
 **kaggle 마스크 착용 여부 이미지 데이터** : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)   
 
 **📁 with mask[folder]**       
-![image](https://user-images.githubusercontent.com/72390138/206941647-f46f60a9-3f55-492c-8430-a7e0bce5b8b6.png)        
+<img src="https://user-images.githubusercontent.com/72390138/206941647-f46f60a9-3f55-492c-8430-a7e0bce5b8b6.png" weight="350" height="350">         
 총 220개의 마스크 착용한 사람들의 이미지
 
 **📁 without mask[folder]**                  
-![image](https://user-images.githubusercontent.com/72390138/206941671-6211b537-b270-45d3-8fc0-c0d6f1f7285f.png)
+<img src="https://user-images.githubusercontent.com/72390138/206941671-6211b537-b270-45d3-8fc0-c0d6f1f7285f.png" weight="350" height="350">       
 총 220개의 마스크 미착용한 사람들의 이미지      
 
 **📂 train/valid/test shape**                    
@@ -196,8 +196,8 @@ val_df (71, 2)
 test_df (88, 2)        
 
 ### 📊 Visualization    
-Target Ratio     
-![image](https://user-images.githubusercontent.com/72390138/206941876-1053e395-212a-43ff-b40f-f54566dab42f.png)       
+✅ Target Ratio     
+<img src="https://user-images.githubusercontent.com/72390138/206941876-1053e395-212a-43ff-b40f-f54566dab42f.png" weight="350" height="350">         
 
 ### 🔍 Modeling
 ⭐ Tensorflow를 이용한 모델링
@@ -302,9 +302,8 @@ history = modeld.fit(
 
 ### 🍀 Submission & Score
 📌 Resnet152V  -> Best Score     
-![image](https://user-images.githubusercontent.com/72390138/206942588-a344bb5b-e72e-4909-b12d-777fbd5a6906.png)
+<img src="https://user-images.githubusercontent.com/72390138/206942588-a344bb5b-e72e-4909-b12d-777fbd5a6906.png" weight="350" height="450">         
 
 📌 팀원들의 이미지를 이용한 마스크 착용/미착용 예측
-![image](https://user-images.githubusercontent.com/72390138/206942609-2b1b424c-a72c-498c-ae7e-71da416d8ec6.png)
-
+<img src="https://user-images.githubusercontent.com/72390138/206942609-2b1b424c-a72c-498c-ae7e-71da416d8ec6.png" weight="350" height="350">         
 
