@@ -163,3 +163,148 @@ public : 17.91, private : 17.53
 public : 19.2138, private : 18.009    
 📌LSTM      
 public : 21.5578 / private 22.5213      
+
+---
+
+## 😷 Face Mask Classification 😷     
+![image](https://user-images.githubusercontent.com/72390138/206939017-352d4a33-79df-4d47-873c-4fefd40c5884.png)      
+
+Kaggle AI 경진대회 : **마스크 착용/미착용 분류**                    
+주소 : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)        
+  
+📜 notion : https://www.notion.so/MINI6-Mask_or_No_Mask-Classification-a7d66cebd161444180e9024e13be2f98#35d0f4877a1f4aa3bd9a0719fc5bea2d     
+  
+### 📃 summary     
+![image](https://user-images.githubusercontent.com/72390138/206940326-e4e4d101-7939-4072-8c9c-65f5e03734fa.png)      
+코로나19 바이러스로 인한 마스크 착용 의무화하였었고, 그에 따른 마스크 미착용자에 대한 과태로 부과 대상에 처했었다.     
+마스크 착용과 미착용의 분류를 통해 모니터링하는 인력을 감소화하고 마스크 착용의 의무화를 느끼고 착용률을 높이고자 한다.    
+
+### 🗂 Data info.  
+**kaggle 마스크 착용 여부 이미지 데이터** : [https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)   
+
+**📁 with mask[folder]**       
+![image](https://user-images.githubusercontent.com/72390138/206941647-f46f60a9-3f55-492c-8430-a7e0bce5b8b6.png)        
+총 220개의 마스크 착용한 사람들의 이미지
+
+**📁 without mask[folder]**                  
+![image](https://user-images.githubusercontent.com/72390138/206941671-6211b537-b270-45d3-8fc0-c0d6f1f7285f.png)
+총 220개의 마스크 미착용한 사람들의 이미지      
+
+**📂 train/valid/test shape**                    
+train_df (281, 2)          
+val_df (71, 2)       
+test_df (88, 2)        
+
+### 📊 Visualization    
+Target Ratio     
+![image](https://user-images.githubusercontent.com/72390138/206941876-1053e395-212a-43ff-b40f-f54566dab42f.png)       
+
+### 🔍 Modeling
+⭐ Tensorflow를 이용한 모델링
+📌 Resnet152V     
+```python
+# imagenet으로 pre-trained 된 가중치 값 적용
+md = ResNet152V2(include_top=False, pooling='max', 
+                  weights='imagenet', input_shape=(height, width, 3))
+md.trainable=False
+
+model = models.Sequential()
+model.add(md)
+model.add(layers.Dense(1, activation = 'sigmoid'))
+
+model.compile(loss='binary_crossentropy', 
+              optimizer='adam', 
+              metrics=['accuracy'])
+              
+early_stop = EarlyStopping(patience=5)
+
+history = model.fit(train_datagen, epochs=20, 
+                    validation_data=val_datagen,
+                    validation_steps=len(val_datagen),
+                    callbacks = [early_stop])      
+
+![image](https://user-images.githubusercontent.com/72390138/206942373-bc752360-e652-4c91-be5f-ba8d5addb118.png)       
+```   
+
+📌 VGG19      
+```python
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten
+from tensorflow.keras.applications import vgg19
+
+vgg = vgg19.VGG19(
+    include_top = False,
+    weights = 'imagenet',
+    input_shape = (height, width, 3)
+)
+
+model = Sequential()
+model.add(vgg)
+model.add(Flatten())
+model.add(Dense(1, activation = 'sigmoid'))
+
+model.compile(
+    optimizer = 'adam',
+    loss = 'binary_crossentropy',
+    metrics = ['accuracy']
+)
+
+from tensorflow.keras.callbacks import EarlyStopping
+
+early_stop = EarlyStopping(monitor = 'val_loss', patience = 10)
+
+history = model.fit(
+    train_dataset,
+    epochs = 100,
+    validation_data = valid_dataset,
+    callbacks = [early_stop]
+
+![image](https://user-images.githubusercontent.com/72390138/206942406-f0be43cf-3d94-42f6-9991-9a2c7fcd725c.png)      
+```
+
+📌 DenseNet121       
+```python
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten
+from tensorflow.keras.applications import densenet
+
+densenet = densenet.DenseNet121(
+    include_top = False,
+    weights = 'imagenet',
+    input_shape = (height, width, 3),
+    pooling = 'avg'
+)
+
+modeld = Sequential()
+modeld.add(densenet)
+modeld.add(Flatten())
+modeld.add(Dense(1, activation = 'sigmoid'))
+
+modeld.compile(
+    optimizer = 'adam',
+    loss = 'binary_crossentropy',
+    metrics = ['accuracy']
+)
+
+from tensorflow.keras.callbacks import EarlyStopping
+
+early_stop = EarlyStopping(monitor = 'val_loss', patience = 10)
+
+history = modeld.fit(
+    train_dataset,
+    epochs = 100,
+    validation_data = valid_dataset,
+    callbacks = [early_stop]
+)
+
+![image](https://user-images.githubusercontent.com/72390138/206942427-2138ee68-d95b-4edc-8abb-39380b53a913.png)      
+```
+
+### 🍀 Submission & Score
+📌 Resnet152V  -> Best Score     
+![image](https://user-images.githubusercontent.com/72390138/206942588-a344bb5b-e72e-4909-b12d-777fbd5a6906.png)
+
+📌 팀원들의 이미지를 이용한 마스크 착용/미착용 예측
+![image](https://user-images.githubusercontent.com/72390138/206942609-2b1b424c-a72c-498c-ae7e-71da416d8ec6.png)
+
+
