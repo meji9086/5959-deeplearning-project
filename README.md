@@ -14,9 +14,9 @@
 #### 💡 Project Info.         
 |number|title|link|bestscore|
 |:-:|:----:|:----:|:-:|         
-|1|🥬 Prediction of bok choy growth 🥬|[https://dacon.io/competitions/official/235961/overview/description](https://dacon.io/competitions/official/235961/overview/description)|private mse 17.53|         
-|2|😷 Face Mask Classification 😷|[https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)|accuracy 0.97|        
-|3|📝 Sentences type Classification 📝|[https://dacon.io/competitions/official/236037/overview/description](https://dacon.io/competitions/official/236037/overview/description)|private accuracy 0.7559|        
+|1|🥬 Prediction of bok choy growth|[https://dacon.io/competitions/official/235961/overview/description](https://dacon.io/competitions/official/235961/overview/description)|private mse 17.53|         
+|2|😷 Face Mask Classification|[https://www.kaggle.com/datasets/dhruvmak/face-mask-detection](https://www.kaggle.com/datasets/dhruvmak/face-mask-detection)|accuracy 0.97|        
+|3|📝 Sentences type Classification|[https://dacon.io/competitions/official/236037/overview/description](https://dacon.io/competitions/official/236037/overview/description)|private accuracy 0.7559|        
 
 ## 1. 🥬 Prediction of bok choy growth 🥬
 ![image](https://user-images.githubusercontent.com/72390138/205493584-af95700c-c420-4f95-a5fc-d1c05bb27bc7.png)      
