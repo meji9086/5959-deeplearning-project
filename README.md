@@ -325,7 +325,7 @@ history = modeld.fit(
 📜 notion : https://www.notion.so/Dacon-AI-54fe914d79584be2a7bd9404ee6fa9a5
   
 ### 📃 summary     
-![image](https://user-images.githubusercontent.com/72390138/208331552-42328ba1-475f-4332-9fe5-74658283ce4f.png)        
+<img src="https://user-images.githubusercontent.com/72390138/208331552-42328ba1-475f-4332-9fe5-74658283ce4f.png" weight="400" height="400">               
 하루 종일 한 마디도 하지 않는 날은 상상할 수 있지만, 한 글자도 읽지 않는 날은 상상할 수 없는 것처럼 우리는 수많은 문장과 글 속에 둘러싸여 살고 있다.       
 특히나 코로나19 이후, 우리 사회에선 온라인과 비대면 소통이 주된 교류 방식이 되었다. 그만큼 우리는 이전보다도 더 많은 문장을 읽고 쓰며 세상과 소통하고 있다.           
 이처럼 수많은 글들을 AI 모델을 활용해 학습하고, 빠르게 분류할 수 있다면 우리는 더 정교하게 분류된 정보를 얻고, 이를 통해 언어가 쓰이는 모든 영역에서 보다 사용자 친화적인 서비스를 경험할 수 있게 될 것이다.      
@@ -337,11 +337,11 @@ history = modeld.fit(
 **dacon 청경채 예측 데이터** : [https://dacon.io/competitions/official/236037/data](https://dacon.io/competitions/official/236037/data)    
 
 **📁 train dataset**       
-![image](https://user-images.githubusercontent.com/72390138/208332994-75fab7bd-0a1c-48c2-9626-5de87625e60b.png)
+<img src="https://user-images.githubusercontent.com/72390138/208332994-75fab7bd-0a1c-48c2-9626-5de87625e60b.png" weight="400" height="400">          
 문장에 따른 유형, 극성, 시제, 확실성이 구분되어 있음 (총 72개 종류의 Class 존재)           
 
 **📁 train dataset**     
-<img src="https://user-images.githubusercontent.com/72390138/208333183-925307ba-d173-4f4f-a62b-5a2f0d6becac.png" weight="300" height="500">       
+<img src="https://user-images.githubusercontent.com/72390138/208333183-925307ba-d173-4f4f-a62b-5a2f0d6becac.png" weight="300" height="350">       
 총 7090 문장으로 구성되어 있음        
 
 **📂 train/test shape**                   
@@ -350,12 +350,12 @@ test (7090, 2)
 
 ### 📊 Visualization        
 **1️⃣ 각 label의 빈도수 시각화**                 
-![image](https://user-images.githubusercontent.com/72390138/208333478-daf842be-bde7-4413-be56-fe68cbf5ef59.png)        
+<img src="https://user-images.githubusercontent.com/72390138/208333478-daf842be-bde7-4413-be56-fe68cbf5ef59.png" weight="400" height="400">            
 극성, 유형, 확실성은 한 곳으로 치우쳐진 label이 있다.     
 이에 따른 해결책을 생각해야 할 것이다.      
 
 **2️⃣ 하나로 통합한 label의 빈도수 시각화**         
-![image](https://user-images.githubusercontent.com/72390138/208333756-bfa89cc9-b8bd-41ea-90c8-2b2bbcc4d2f6.png)      
+<img src="https://user-images.githubusercontent.com/72390138/208333756-bfa89cc9-b8bd-41ea-90c8-2b2bbcc4d2f6.png" weight="400" height="400">            
 각 클래스 사이에서 불균형이 일어남을 알 수 있다.      
 
 ### 🔍 Modeling         
@@ -449,8 +449,8 @@ class BaseModel(nn.Module):
 ```   
 
 ### 🍀 Submission & Score      
-📌 Tensorflow : 0.5794
-📌 pytorch(baseline) : 0.5362
-📌 best score : 0.7559 (대회가 끝나지 않아 모델은 미공개)         
+📌 Tensorflow : 0.5794        
+📌 pytorch(baseline) : 0.5362        
+📌 best score : 0.7559 (대회가 끝나지 않아 모델은 미공개)           
 
 ---
